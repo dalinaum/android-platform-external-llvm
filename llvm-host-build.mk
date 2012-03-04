@@ -42,6 +42,8 @@ LOCAL_C_INCLUDES :=	\
 	$(LLVM_ROOT_PATH)/host/include	\
 	$(LOCAL_C_INCLUDES)
 
+LOCAL_LDLIBS := -lpthread -ldl
+
 LOCAL_IS_HOST_MODULE := true
 
 ###########################################################
